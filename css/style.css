@@ -15,12 +15,20 @@ body{
 .circle{
     width: 30px;
     height: 30px;
-    background-color:blue;
+    background-color: white;
     border-radius: 50%;
     line-height: 30px;
     text-align: center;
+    display: inline-block;
 }
 
+.circle-box{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    padding: 15px 10px;
+}
 
 /*MAIN*/
 
@@ -37,7 +45,7 @@ section {
 
 
 
-.sfondo div{
+.content div{
     position: relative;
     width: 100%;
     height: 100vh;
@@ -45,7 +53,7 @@ section {
 
 }
 
-.sfondo{
+.content{
     position: absolute;
     top: 50%;
     left: 50%;
